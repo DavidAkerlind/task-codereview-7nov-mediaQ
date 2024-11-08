@@ -92,18 +92,15 @@ footer {
     .content-wrapper {
         align-items: center;
     }
-    figure {
-        align-self: center;
-    }
+
     ul {
         display: flex;
         flex-direction: column;
     }
 
     .main-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
         margin-top: 0.5rem;
     }
     main {
